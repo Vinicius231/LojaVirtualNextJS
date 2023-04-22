@@ -1,0 +1,42 @@
+.name {
+    color: white;
+}
+.navbar {
+    height: 60px; 
+    background: black;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    margin-right: 1em;
+    cursor: pointer;
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+    font: bolder 14pt Arial;
+    color: white;
+    transition: 0.3s;
+}
+.link:hover {
+    color: #c0bcbcad;
+    
+}
+.BTN {
+    background: white;
+    width: 35px;
+    height: 35px;
+    border: none;
+    position: relative;
+}
+
+@media (max-width: 650px) {
+    .menu { 
+        display: none;
+    }
+}
