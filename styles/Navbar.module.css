@@ -1,5 +1,5 @@
 .name {
-  color: white;
+  color: rgb(0, 183, 255);
 }
 .navbar {
   height: 60px;
@@ -8,6 +8,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  position: fixed;
+  width: 100%;
 }
 .menu {
   display: flex;
@@ -32,11 +34,14 @@
   width: 40px;
   height: 40px;
   border: none;
+  margin-right: 20px;
 }
 
 .ContainerMenu {
-  width: 100ve;
   display: none;
+  position: fixed;
+  margin-top: 70px;
+  width: 100%;
 }
 .ContainerMenu ul li {
   background: rgba(0, 0, 0, 0.904);

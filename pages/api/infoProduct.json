@@ -1,0 +1,17 @@
+[
+  {
+    "product": "Bicicleta",
+    "price": "120,99",
+    "image": "/bike.jpeg"
+  },
+  {
+    "product": "Sapato",
+    "price": "39,99",
+    "image": "/sapato.jpeg"
+  },
+  {
+    "product": "Camiseta",
+    "price": "60,00",
+    "image": "/camiseta.jpeg"
+  }
+]
