@@ -2,12 +2,17 @@ import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
 import Image from "next/image";
 import menuImg from "../assets/menu.png";
+import closeImg from "../assets/close.png";
 import { useState } from "react";
 
 export default function Navbar() {
   const [clicked, setClicked] = useState(false);
+  const [imgButton, setImgButton] = useState(menuImg);
 
   const clickMenu = () => {
+    if (clicked == false) {
+      setImgButton(closeImg);
+    } else setImgButton(menuImg);
     setClicked(!clicked);
   };
 
@@ -39,24 +44,24 @@ export default function Navbar() {
           </li>
         </ul>
         <button onClick={clickMenu} className={styles.BTN}>
-          <Image src={menuImg} width="30px" height="30px" />
+          <Image src={imgButton} alt="botaoMenu" width="30px" height="30px" />
         </button>
       </nav>
 
       <div style={menuStyle} className={styles.ContainerMenu}>
         <ul>
           <li>
-            <Link className={styles.link} href="/">
+            <Link onClick={clickMenu} className={styles.link} href="/">
               <p>Produtos</p>
             </Link>
           </li>
           <li>
-            <Link className={styles.link} href="/carrinho">
+            <Link onClick={clickMenu} className={styles.link} href="/carrinho">
               <p>Carrinho</p>
             </Link>
           </li>
           <li>
-            <Link className={styles.link} href="/sobre">
+            <Link onClick={clickMenu} className={styles.link} href="/sobre">
               <p>Sobre</p>
             </Link>
           </li>
