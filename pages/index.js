@@ -11,6 +11,7 @@ export default function Home() {
       {array.map((el, i) => {
         return (
           <Product
+          id={i}
             key={i}
             name={infoProduct[i].product}
             price={infoProduct[i].price}

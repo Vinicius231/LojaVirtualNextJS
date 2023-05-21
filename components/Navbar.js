@@ -24,7 +24,7 @@ export default function Navbar() {
     <>
       <nav className={styles.navbar}>
         <Link className={styles.link} href="/">
-          <h1 className={styles.name}>Loja Virtual</h1>
+          <h1 className={styles.name}>No Name</h1>
         </Link>
         <ul className={styles.menu}>
           <li>

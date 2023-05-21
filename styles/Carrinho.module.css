@@ -1,0 +1,15 @@
+.container {
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.produtoCarrinho {
+  background: rgba(201, 199, 199, 0.651);
+  width: 280px;
+  height: 350px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}

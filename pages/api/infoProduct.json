@@ -1,17 +1,17 @@
 [
   {
-    "product": "Bicicleta",
+    "product": "Alimento",
     "price": "120,99",
-    "image": "/bike.jpeg"
+    "image": "/noimage.jpeg"
   },
   {
-    "product": "Sapato",
+    "product": "Alimento",
     "price": "39,99",
-    "image": "/sapato.jpeg"
+    "image": "/noimage.jpeg"
   },
   {
-    "product": "Camiseta",
+    "product": "Alimento",
     "price": "60,00",
-    "image": "/camiseta.jpeg"
+    "image": "/noimage.jpeg"
   }
 ]
